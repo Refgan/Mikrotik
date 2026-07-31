@@ -23,7 +23,7 @@ c. Sesudah muncul tampilan tersbut, klik Mac address=6C:3B:6B:E2:09:5D lalu **co
 
 ---
 
-## 🚀 Langkah-Langkah Login ke MikroTik
+## Langkah-Langkah Login ke MikroTik
 
 Ikuti langkah-langkah di bawah ini untuk terhubung ke router MikroTik Anda:
 
