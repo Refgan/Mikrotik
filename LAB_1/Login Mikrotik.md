@@ -34,7 +34,7 @@ d. nanti akan masuk ke dalam halaman berikut
 
 a. kalian masuk ke web chrome
 
-b. Pada tab Pencarian ketik ip default mikrotik 192.168.88.1
+b. Pada tab Pencarian ketik ip default mikrotik **192.168.88.1**
 
 <img width="344" height="122" alt="ss" src="https://github.com/user-attachments/assets/5fb99104-c5f2-4005-a79e-17fba33bcc5e" />
 
@@ -47,38 +47,28 @@ berikut adalah tampilan MikroTik di dalam Website chrome :
 <img width="1362" height="736" alt="Screenshot 2026-08-07 134807" src="https://github.com/user-attachments/assets/3a6f16ca-e8ad-49aa-b980-e411c8a29349" />
 
 
-### 3.Login Mikrotik 
-* Colokkan kabel LAN dari port **Ether2** (atau port selain Ether1 yang biasanya dipakai untuk internet/WAN) di router MikroTik ke port LAN di Laptop/PC Anda.
-* (Opsional) Jika menggunakan konfigurasi *default* pabrik, pastikan pengaturan IP Address di laptop Anda diset ke **Obtain an IP address automatically (DHCP)**.
+### 3.Login Mikrotik dengan SSH dan Telnet
 
-### 2. Buka Aplikasi WinBox
-* Double-click pada file aplikasi `winbox.exe` yang sudah Anda download.
+*Pastikan aplikasi PuTTY sudah terinstal di komputer/laptop*, (https://putty.org/index.html)
 
-### 3. Pilih Tab "Neighbors" (Tetangga Jaringan)
-* Di jendela utama WinBox, klik tab **Neighbors** di bagian bawah/samping untuk mendeteksi perangkat MikroTik yang terhubung secara fisik dalam satu jaringan lokal.
-* WinBox akan memindai dan menampilkan informasi router berupa:
-  * **MAC Address** (Disarankan digunakan untuk login pertama kali jika IP belum diset).
-  * **IP Address** (Biasanya default `192.168.88.1`).
-  * **Identity** (Nama router, default: `MikroTik`).
-  * **Board hingga Version**.
+<img width="138" height="145" alt="puiy" src="https://github.com/user-attachments/assets/42b89c68-57bc-4c25-bce2-2c76a84484cf" />
 
-### 4. Masukkan Kredensial Login (Default)
-Klik pada **MAC Address** atau **IP Address** yang muncul pada daftar *Neighbors* tersebut, lalu isi kolom login:
-* **Connect To:** *(Terisi otomatis saat Anda klik MAC/IP di tab Neighbors)*
-* **Login:** `admin` *(Default pabrik MikroTik)*
-* **Password:** *(Kosongkan saja untuk router baru/default pabrik, atau masukkan password Anda jika sudah pernah diubah)*
 
-> 💡 **Catatan Penting:** Jika Anda terhubung menggunakan IP Address, pastikan IP laptop Anda satu segmen dengan router (Contoh: IP Router `192.168.88.1`, maka IP Laptop bisa `192.168.88.2`). Jika bingung, gunakan **MAC Address** untuk koneksi yang lebih aman tanpa pusing memikirkan IP.
+a. Buka aplikasi PuTTY di komputer Anda.
 
-### 5. Tombol Connect
-* Klik tombol **Connect** di bagian kanan bawah.
-* Jika berhasil, jendela baru dashboard **RouterOS** (WinBox GUI) akan terbuka, dan Anda siap melakukan konfigurasi jaringan!
+b. Pada bagian Connection type, pilih opsi SSH. 
 
----
+c. Masukkan alamat IP MikroTik pada kolom Host Name (or IP address). (Contoh: 192.168.88.1).
 
-## ⚠️ Troubleshooting (Kendala Umum)
-* **MikroTik tidak muncul di Neighbors?** 
-  * Cek kembali fisik kabel LAN (pastikan lampu indikator port menyala).
-  * Matikan sementara (Disable) *Windows Defender Firewall* atau antivirus pihak ketiga yang terkadang memblokir *discovery broadcast* WinBox.
-* **Muncul Error "RouterOS version mismatch"?**
-  * Versi WinBox Anda terlalu lama atau terlalu baru dibandingkan versi sistem operasi router. Gunakan versi WinBox yang sesuai.
+d. Pastikan kolom Port terisi angka 22 (port default SSH).
+
+e. Klik tombol Open di bagian bawah.
+
+<img width="447" height="443" alt="Screenshot 2026-08-07 141255" src="https://github.com/user-attachments/assets/98227929-5dfb-4532-91d5-6ba33336f399" />
+
+
+Jika muncul jendela peringatan keamanan (*PuTTY Security Alert*), klik saja Accept atau Yes.
+Akan muncul jendela hitam (*command prompt*). 
+Ketik login MikroTik Anda dengan admin, lalu tekan Enter.
+Anda akan masuk ke command line MikroTik yang ditandai dengan munculnya prompt nama router Anda.
+<img width="658" height="418" alt="Screenshot 2026-08-07 142939" src="https://github.com/user-attachments/assets/c71e3d75-e20c-4b40-b5ca-6f4c64575370" />
