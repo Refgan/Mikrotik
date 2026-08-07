@@ -1,4 +1,4 @@
-## LAB3 BLANK CONFIGURATION
+## LAB 3 BLANK CONFIGURATION
 
 *Blank Configuration* adalah kondisi di mana router MikroTik dikembalikan atau disetel dalam keadaan bersih tanpa adanya konfigurasi bawaan pabrik (default configuration).
 
