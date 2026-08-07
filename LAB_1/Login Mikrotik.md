@@ -1,6 +1,6 @@
 # Login MikroTik Menggunakan WinBox
 
-Assalamualaikum wr wb, disini saya akan membuat langkah-langkah untuk melakukan *login* atau meremote perangkat router MikroTik menggunakan aplikasi WinBox, Webfig, SSH Telnet 
+Assalamualaikum wr wb, disini saya akan membuat langkah-langkah untuk melakukan *login* atau meremote perangkat router MikroTik menggunakan aplikasi WinBox, Webfig, SSH Telnet dan FTP
 
 ---
 
@@ -20,14 +20,34 @@ c. Sesudah muncul tampilan tersbut, klik Mac address=6C:3B:6B:E2:09:5D lalu **co
 
 <img width="1366" height="516" alt="Screenshot 2026-07-31 153107" src="https://github.com/user-attachments/assets/729c5e4e-ece8-46f8-b159-a6d0b68f1575" />
 
+d. nanti akan masuk ke dalam halaman berikut
+
+<img width="1365" height="767" alt="Screenshot 2026-08-07 132856" src="https://github.com/user-attachments/assets/c1e99c7a-144f-461c-aadf-14cfb74118ba" />
+
 
 ---
 
-## Langkah-Langkah Login ke MikroTik
+## 2. login Dengan Webfig
 
-Ikuti langkah-langkah di bawah ini untuk terhubung ke router MikroTik Anda:
+<img width="82" height="105" alt="Screenshot 2026-08-07 133226" src="https://github.com/user-attachments/assets/a8bbcb4b-0013-4c30-a366-909f3bac5d6d" />
 
-### 1. Hubungkan Perangkat
+
+a. kalian masuk ke web chrome
+
+b. Pada tab Pencarian ketik ip default mikrotik 192.168.88.1
+
+<img width="344" height="122" alt="ss" src="https://github.com/user-attachments/assets/5fb99104-c5f2-4005-a79e-17fba33bcc5e" />
+
+c. Login dengan admin untuk password kosongkan saja
+
+<img width="1365" height="767" alt="Screenshot 2026-08-07 133652" src="https://github.com/user-attachments/assets/002f0c16-449e-47bd-beec-db069b0b915b" />
+
+berikut adalah tampilan MikroTik di dalam Website chrome :
+
+<img width="1362" height="736" alt="Screenshot 2026-08-07 134807" src="https://github.com/user-attachments/assets/3a6f16ca-e8ad-49aa-b980-e411c8a29349" />
+
+
+### 3.Login Mikrotik 
 * Colokkan kabel LAN dari port **Ether2** (atau port selain Ether1 yang biasanya dipakai untuk internet/WAN) di router MikroTik ke port LAN di Laptop/PC Anda.
 * (Opsional) Jika menggunakan konfigurasi *default* pabrik, pastikan pengaturan IP Address di laptop Anda diset ke **Obtain an IP address automatically (DHCP)**.
 
