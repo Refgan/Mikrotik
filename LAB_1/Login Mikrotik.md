@@ -49,6 +49,9 @@ berikut adalah tampilan MikroTik di dalam Website chrome :
 
 ### 3.Login Mikrotik dengan SSH dan Telnet
 
+ **1. Telnet**
+
+
 *Pastikan aplikasi PuTTY sudah terinstal di komputer/laptop*, (https://putty.org/index.html)
 
 <img width="138" height="145" alt="puiy" src="https://github.com/user-attachments/assets/42b89c68-57bc-4c25-bce2-2c76a84484cf" />
