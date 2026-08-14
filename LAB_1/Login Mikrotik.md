@@ -75,3 +75,7 @@ Akan muncul jendela hitam (*command prompt*).
 Ketik login MikroTik Anda dengan admin, lalu tekan Enter.
 Anda akan masuk ke command line MikroTik yang ditandai dengan munculnya prompt nama router Anda.
 <img width="658" height="418" alt="Screenshot 2026-08-07 142939" src="https://github.com/user-attachments/assets/c71e3d75-e20c-4b40-b5ca-6f4c64575370" />
+
+**2. SSH**
+
+Dan yang kedua menggunakan SSH dalam aplikasi PuTTY
