@@ -49,7 +49,7 @@ berikut adalah tampilan MikroTik di dalam Website chrome :
 
 ### 3.Login Mikrotik dengan SSH dan Telnet
 
- **1. Telnet**
+ **1. SSH**
 
 
 *Pastikan aplikasi PuTTY sudah terinstal di komputer/laptop*, (https://putty.org/index.html)
@@ -76,6 +76,24 @@ Ketik login MikroTik Anda dengan admin, lalu tekan Enter.
 Anda akan masuk ke command line MikroTik yang ditandai dengan munculnya prompt nama router Anda.
 <img width="658" height="418" alt="Screenshot 2026-08-07 142939" src="https://github.com/user-attachments/assets/c71e3d75-e20c-4b40-b5ca-6f4c64575370" />
 
-**2. SSH**
+**2. Telnet**
 
 Dan yang kedua menggunakan SSH dalam aplikasi PuTTY
+
+a. Buka Command Prompt 
+b. Lalu ketik perintah  **telnet [ip address mikrotik]** contoh (192.168.88.1)
+
+<img width="398" height="204" alt="telnet" src="https://github.com/user-attachments/assets/28ca243c-6d32-41d9-a1e9-12131148a10d" />
+
+c. Tekan enter
+
+d. Login dengan ketik admin, untuk password kosongkan saja
+
+<img width="976" height="509" alt="login telnet" src="https://github.com/user-attachments/assets/ebf44758-9f1e-4504-99a4-e1bbab24f334" />
+
+e. Lalu tekan enter
+
+<img width="973" height="512" alt="telnet complit" src="https://github.com/user-attachments/assets/d7f3eca7-2efb-4698-ab5c-43607e4d702c" />
+
+
+Selamat Anda bisa login menggunakan Telnet
