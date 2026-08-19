@@ -1,3 +1,3 @@
 ## LAB 4 COMMAND LINE PADA INTERFACES (TERMINAL) MIKROTIK
 
-Bissmillahirohmaanirrohiim
+assalamualaikum wr wb
